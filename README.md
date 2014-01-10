@@ -1,24 +1,20 @@
-1# Oracle java jdk7 debian package
+# Oracle java jdk7 debian package
 
 ##BUILD DEB PACKAGE
-### Download jdk archive 
+### Download 
 
-    wget --continue --no-check-certificate -O jdk-7u45-linux-x64.tar.gz --header "Cookie: gpw_e24=h" http://download.oracle.com/otn-pub/java/jdk/7u45-b18/jdk-7u45-linux-x64.tar.gz
+    git clone https://github.com/puppetnix/java_7u45.jdk.git
+	mkdir build-area
+	cd java_7u45.jdk
 
-### Unzip archive 
+### Make changes and create release (option)
 
-    tar -xzvf jdk-7u45-linux-x64.tar.gz
-	mv jdk1.7.0_45 java-7u45.jdk-custom1
-	cd java-7u45.jdk-custom1
-
-### Replace files
-
-    git clone https://github.com/puppetnix/jdk1.7.git
-	cp -R jdk1.7/* java-7u45.jdk-custom1/
+    git commit -m "after some changes"
+	git-dch --qa --git-author -a --release
 
 ### Build package
 
-    cd java-7u45.jdk-custom1
-	dpkg-buildpackage -rfakeroot
+    git-buildpackage --git-tag --git-export-dir=../build-area
+
 
 
