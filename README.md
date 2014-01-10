@@ -7,6 +7,10 @@
 	mkdir build-area
 	cd java_7u45.jdk
 
+### Install git-buildpackage (using version 6.7)
+
+    apt-get install git-buildpackage
+
 ### Make changes and create release (option)
 
     git commit -m "after some changes"
