@@ -1,3 +1,20 @@
+java (7u45.jdk-devops2) precise; urgency=low
+
+  [ Artem Kobrin ]
+  * QA upload.
+  * change README.md
+
+  [ kobrinartem ]
+  * Update README.md
+
+  [ Kobrin Artem ]
+  * modified global user.name
+  * add alternatives
+
+  [ root ]
+
+ -- root <root@mirror.cloud.connecture.com>  Thu, 30 Jan 2014 19:54:32 +0000
+
 java (7u45.jdk-devops1) precise; urgency=low
 
   * QA upload.
