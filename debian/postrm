@@ -1,0 +1,5 @@
+#!/bin/bash
+
+update-alternatives --remove "java" "/usr/jre/jdk1.7.0_45/bin/java"
+update-alternatives --remove "javac" "/usr/jre/jdk1.7.0_45/bin/javac"
+update-alternatives --remove "javaws" "/usr/jre/jdk1.7.0_45/bin/javaws"

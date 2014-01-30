@@ -1,0 +1,5 @@
+#!/bin/bash
+
+update-alternatives --install "/usr/bin/java" "java" "/usr/jre/jdk1.7.0_45/bin/java" 0
+update-alternatives --install "/usr/bin/javac" "javac" "/usr/jre/jdk1.7.0_45/bin/javac" 0
+update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/jre/jdk1.7.0_45/bin/javaws" 0
