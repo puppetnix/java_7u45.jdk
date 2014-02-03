@@ -1,3 +1,11 @@
+java (7u45.jdk-devops3) precise; urgency=low
+
+  * QA upload.
+  * fix java home error
+  * fix problem with lib
+
+ -- Kobrin Artem <kobrin.artem@gmail.com>  Mon, 03 Feb 2014 12:09:58 +0000
+
 java (7u45.jdk-devops2) precise; urgency=low
 
   [ Artem Kobrin ]
